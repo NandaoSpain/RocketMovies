@@ -9,11 +9,17 @@ export const Container = styled.header`
     display: flex;
     justify-content: space-between;
     padding: 0 80px;
+    align-items: center;
+
+    > h1 {
+        color: ${({ theme }) => theme.COLORS.PINK};
+    }
 `;
 
 export const Profile = styled.div`
     display: flex;
     align-items: center;
+    
     
     > img {
         width: 66px;
@@ -24,10 +30,11 @@ export const Profile = styled.div`
     > div {
         display: flex;
         flex-direction: column;
-        margin-left: 16px;
+        margin-right: 16px;
         line-height: 24px;
+        align-items: end;
 
-        span {
+        a {
             font-size: 14px;
             color: ${({ theme }) => theme.COLORS.GRAY_100};
         }
@@ -36,16 +43,9 @@ export const Profile = styled.div`
             font-size: 18px;
             color: ${({ theme }) => theme.COLORS.WHITE};
             font-weight: 100;
+            
         }
     }
 `;
 
-export const Logout = styled.button`
-    border: none;
-    background: none;
 
-    > svg {
-        color: ${({ theme }) => theme.COLORS.GRAY_100};
-        font-size: 36px;
-    }
-`;
