@@ -14,10 +14,9 @@ export const Middle = styled.div`
     grid-template-areas: "A B C";
     gap: 50px;
     align-items: center;
-    margin: 0 30px;
-    justify-content: space-between;
-    padding: 10px 60px;
-
+    justify-content: space-around;
+    padding: 10px 90px;
+    
     
     > h1 {
         grid-area: A;

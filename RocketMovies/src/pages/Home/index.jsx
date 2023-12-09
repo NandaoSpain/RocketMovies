@@ -12,8 +12,15 @@ export function Home({icon: Icon, ...rest}) {
                 <h1>Meus Filmes</h1>
                 <Button icon={FiPlus} title='Adicionar Filme'>
                 </Button>
-            </Middle>
+            </Middle>            
             <Cards />
-        </Container>        
+            <Cards />
+            <Cards />
+            <Cards />
+            <Cards />
+            <Cards />
+            <Cards />
+            <Cards />
+            </Container>        
     );
 }

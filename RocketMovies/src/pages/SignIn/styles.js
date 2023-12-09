@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import backgroundImg from '../../assets/photo.png';
+import backgroundImg from '../../../../../../../photo.png';
 
 export const Container = styled.div`
     height: 100vh;
@@ -9,7 +9,7 @@ export const Container = styled.div`
 
 export const Background = styled.div`
     flex: 1;
-    background: url(${backgroundImg}) no-repeat center center;
+    background: url(${backgroundImg}) no-repeat;
     background-size: cover;
 `;
 
@@ -20,6 +20,10 @@ export const Form = styled.form`
     justify-content: center;
     align-items: start;
     text-align: center;
+    
+    > button {
+        width: 100%;
+    }
     
 
     > h1 {
