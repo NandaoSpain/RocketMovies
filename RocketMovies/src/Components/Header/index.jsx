@@ -8,7 +8,7 @@ export function Header() {
             <div>
                 <h1>RocketMovies</h1>
             </div>
-            <Input icon={FiSearch}/>
+            <Input icon={FiSearch} placeholder='Pesquisar pelo título'/>
             <Profile>                
                 <div>
                     <strong>Fernando Rodrigues</strong>

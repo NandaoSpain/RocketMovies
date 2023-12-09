@@ -13,7 +13,7 @@ export const Container = styled.div`
 
     > div {
         justify-self: center;
-        
+
         h1 {
             color: ${({ theme }) => theme.COLORS.PINK};
             padding: 30px 50px;
@@ -36,12 +36,12 @@ export const Profile = styled.div`
         align-items: flex-end;
         
         a {
-            color: ${({ theme }) => theme.COLORS.WHITE};
+            color: ${({ theme }) => theme.COLORS.GRAY_100};
         }
 
         > strong {
             font-size: 20px;
-            color: ${({ theme }) => theme.COLORS.PINK}
+            color: ${({ theme }) => theme.COLORS.WHITE}
         }
         
     }
