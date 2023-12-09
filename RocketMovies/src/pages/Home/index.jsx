@@ -1,13 +1,11 @@
 import { Container } from "./styles";
-import { Header } from "../../Components/Header";
 import { Button } from "../../Components/Button";
+import { Header, } from "../../Components/Header";
 
-export function Home() {
+export function Home({icon: Icon, ...rest}) {
     return(
         <Container>
             <Header />
-            <h1>Meus Filmes</h1>
-            <Button title="Adicionar filme"/>
-        </Container>
+        </Container>        
     );
 }

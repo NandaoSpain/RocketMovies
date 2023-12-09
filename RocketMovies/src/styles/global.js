@@ -1,5 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
 
+
 export default createGlobalStyle`
     * {
         margin: 0;
@@ -10,7 +11,6 @@ export default createGlobalStyle`
     body {
         background-color: ${({ theme }) => theme.COLORS.BACKGROUND_800};
         color: ${({ theme }) => theme.COLORS.WHITE};
-        -webkit-font-smothing: antialised;
     }
 
     body, input, button, textarea {

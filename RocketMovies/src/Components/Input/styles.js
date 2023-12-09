@@ -1,12 +1,14 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-    margin-bottom: 16px;
+
     width: 100%;
     display: flex;
     align-items: center;
     background-color: ${({ theme }) => theme.COLORS.BACKGROUND_700};
     color: ${({ theme }) => theme.COLORS.GRAY_300};
+    
+    margin-bottom: 8px;
     border-radius: 10px;
 
     > input {
@@ -14,9 +16,9 @@ export const Container = styled.div`
         width: 100%;
         padding: 12px;
         color: ${({ theme }) => theme.COLORS.WHITE};
-        background: transparent;
+        background: ${({ theme }) => theme.COLORS.BACKGROUND_700};
         border: 0;
-
+        border-radius: 10px;
         
 
         &:placeholder {
@@ -26,5 +28,6 @@ export const Container = styled.div`
     
     > svg {
             margin-left: 16px;
+            
         }
 `;
