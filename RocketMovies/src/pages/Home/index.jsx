@@ -2,6 +2,7 @@ import { Container, Middle } from "./styles";
 import { Button } from "../../Components/Button";
 import { Header, } from "../../Components/Header";
 import { FiPlus } from "react-icons/fi";
+import { Cards } from "../../Components/Cards/Index";
 
 export function Home({icon: Icon, ...rest}) {
     return(
@@ -12,6 +13,7 @@ export function Home({icon: Icon, ...rest}) {
                 <Button icon={FiPlus} title='Adicionar Filme'>
                 </Button>
             </Middle>
+            <Cards />
         </Container>        
     );
 }
