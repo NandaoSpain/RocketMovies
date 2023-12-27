@@ -10,10 +10,17 @@ export const Container = styled.div`
 
     > h1 {
         margin-bottom: 20px;
+        
     }
 
     > p {
         color: ${({ theme }) => theme.COLORS.GRAY_100}
+    }
+
+    > section {
+        display: flex;
+        align-items: center; 
+        gap: 30px;       
     }
 
 `;
